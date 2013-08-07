@@ -16,7 +16,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <ul>
   {%  for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl1 }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
